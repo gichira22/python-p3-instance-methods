@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 
-class Person:
-    # Class body goes here
+# Create a directory named 'lib' and save this as 'person.py' inside that directory.
 
-    #Instance method definition
-    pass
+class Person:
+    def talk(self):
+        print("Hello World!")
+    
+    def walk(self):
+        print("The person is walking.")
+
